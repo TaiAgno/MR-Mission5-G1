@@ -1,0 +1,25 @@
+version: "3"
+services:
+  db:
+    image: mongo
+    expose:
+      - "27017"
+    volumes:
+      - db-volume:/data/db
+    ports:
+      - "27017:27017"
+  server:
+    build:
+      context: ./BACKEND
+    environment:
+      - MONGO_URI=mongodb://db:27017/mongo
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    volumes:
+      - ./BACKEND:/app
+      - /app/node_modules
+    restart: on-failure
+volumes:
+  db-volume:
