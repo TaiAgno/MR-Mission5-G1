@@ -1,22 +1,28 @@
 version: "3"
 services:
-  db:
-    image: mongo
+  mongo:
+    image: mongo:latest
     expose:
       - "27017"
     volumes:
       - db-volume:/data/db
     ports:
       - "27017:27017"
+  dbseed:
+    build:
+      context: ./DATABASE
+    depends_on:
+      - mongo
+    command: ["./wait-for-it.sh", "mongo:27017", "--", "node", "index.js"]
   server:
     build:
       context: ./BACKEND
     environment:
-      - MONGO_URI=mongodb://db:27017/mongo
+      - MONGO_URI=mongodb://mongo:27017/mongo
     ports:
       - "3000:3000"
     depends_on:
-      - db
+      - dbseed
     volumes:
       - ./BACKEND:/app
       - /app/node_modules

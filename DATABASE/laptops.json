@@ -1,5 +1,4 @@
-{
-    "laptops": [
+[
       {
         "brand": "Dell",
         "model": "Latitude 7410",
@@ -11,7 +10,7 @@
         "gpu_model": "Intel UHD Graphics",
         "operating_system": "Windows 10 Pro",
         "more_specs": "Fingerprint reader, Thunderbolt 3",
-        "image": "url_to_image"
+        "image": "./laptops/61Nt1PCGwML._AC_SL1200_.jpg"
       },
       {
         "brand": "HP",
@@ -24,7 +23,7 @@
         "gpu_model": "Intel UHD Graphics 620",
         "operating_system": "Windows 10 Pro",
         "more_specs": "2-in-1 convertible, LTE connectivity",
-        "image": "url_to_image"
+        "image": "./laptops/416oke7sSFL._AC_.jpg"
       },
         {
             "brand": "Lenovo",
@@ -37,7 +36,7 @@
             "gpu_model": "Intel UHD Graphics 620",
             "operating_system": "Windows 10 Pro",
             "more_specs": "Fingerprint reader, Thunderbolt 3",
-            "image": "url_to_image"
+            "image": "./laptops/51GDrS+tTkL._AC_SL1200_.jpg"
         },
         {
             "brand": "Apple",
@@ -50,7 +49,7 @@
             "gpu_model": "Intel Iris Plus Graphics 645",
             "operating_system": "macOS",
             "more_specs": "Touch Bar, Touch ID",
-            "image": "url_to_image"
+            "image": "./laptops/31wQtIlCAWL._AC_.jpg"
         },
         {
             "brand": "Microsoft",
@@ -63,7 +62,7 @@
             "gpu_model": "Intel Iris Plus Graphics",
             "operating_system": "Windows 10 Home",
             "more_specs": "Touchscreen, Alcantara fabric",
-            "image": "url_to_image"
+            "image": "./laptops/71h6PpGaz9L._AC_SL1500_.jpg"
         },
         {
             "brand": "Asus",
@@ -76,7 +75,7 @@
             "gpu_model": "Intel UHD Graphics 620",
             "operating_system": "Windows 10 Home",
             "more_specs": "Touchscreen, NumberPad",
-            "image": "url_to_image"
+            "image": "./laptops/81pxpEuxFFL._AC_SL1500_.jpg"
         },
         {
             "brand": "Acer",
@@ -89,7 +88,7 @@
             "gpu_model": "Intel Iris Xe Graphics",
             "operating_system": "Windows 10 Pro",
             "more_specs": "MIL-STD-810G certified, Acer ProShield security",
-            "image": "url_to_image"
+            "image": ".laptops/71y2OudJ4QL._AC_SL1500_.jpg"
           },
           {
             "brand": "Asus",
@@ -102,7 +101,7 @@
             "gpu_model": "Intel Iris Xe Graphics",
             "operating_system": "Windows 10 Pro",
             "more_specs": "MIL-STD-810H certified, NumberPad 2.0",
-            "image": "url_to_image"
+            "image": "./laptops/71EozoeQdVL._AC_SL1500_.jpg"
           },
           {
             "brand": "Razer",
@@ -115,7 +114,7 @@
             "gpu_model": "Intel Iris Xe Graphics",
             "operating_system": "Windows 10 Home",
             "more_specs": "Ultra-thin bezels, CNC aluminum chassis",
-            "image": "url_to_image"
+            "image": "./laptops/71zLNzhPvzL._AC_SL1500_.jpg"
           },
           {
             "brand": "Lenovo",
@@ -128,7 +127,7 @@
             "gpu_model": "Intel Iris Xe Graphics",
             "operating_system": "Windows 10 Pro",
             "more_specs": "MIL-STD-810G certified, Dolby Atmos sound",
-            "image": "url_to_image"
+            "image": "./laptops/717x-CIsqvL._AC_SL1500_.jpg"
           },
           {
             "brand": "HP",
@@ -390,6 +389,4 @@
             "more_specs": "360-degree hinge, HP Sure View privacy screen",
             "image": "url_to_image"
           }
-    ]
-  }
-  
+    ] 

@@ -1,4 +1,7 @@
-FROM mongo:latest
+FROM node:latest
+
 WORKDIR /db
-EXPOSE 27017
-CMD ["mongod"]
+COPY package*.json ./
+RUN npm install
+COPY . .
+CMD ["node", "index.js"]

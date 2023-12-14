@@ -1,11 +1,13 @@
 const express = require("express");
 const router = express.Router();
-const Product = require("../models/laptops.js");
+const Laptop = require("../models/laptops.js");
 
 router.get("/", async (req, res) => {
     console.log("GET request for all laptops");
     try {
-        const laptops = await Product.find();
+        console.log("Running Laptop.find() query...");
+const laptops = await Laptop.find();
+console.log("Laptop.find() query returned:", laptops);
         return res.json(laptops);
     } catch (err) {
         return res.json({ message: err });
