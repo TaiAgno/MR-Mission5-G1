@@ -53,8 +53,9 @@ const reviewSchema = new mongoose.Schema({
 const laptopSchema = new mongoose.Schema({
   brand: { type: String, required: true },
   model: { type: String, required: true },
-  screen_size: { type: Number, required: true },
+  screen_size: { type: String, required: true },
   screen_resolution: { type: String, required: true },
+  cpu: { type: String, required: true },
   ram: { type: String, required: true },
   storage: { type: String, required: true },
   gpu_model: { type: String, required: true },
@@ -65,10 +66,10 @@ const laptopSchema = new mongoose.Schema({
   card_image: { type: String, required: true },
   images: { type: [String], default: [] },
   tags: { type: [String], default: [] },
-  specs_performance: { type: [performanceSchema], required: true },
-  specs_design: { type: [designSchema], required: true },
-  specs_software: { type: [softwareSchema], required: true },
-  specs_connectivity: { type: [connectivitySchema], required: true },
+  specs_performance: { type: [performanceSchema] },
+  specs_design: { type: [designSchema] },
+  specs_software: { type: [softwareSchema] },
+  specs_connectivity: { type: [connectivitySchema] },
 });
 
 const Laptop = mongoose.model('Laptop', laptopSchema);

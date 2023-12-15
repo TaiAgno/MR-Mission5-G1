@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
 const Laptop = require('./models/laptops.js');
-// const Headphone = require('./models/headphones.js');
-// const Monitor = require('./models/monitors.js');
 const fs = require('fs').promises;
 const path = require('path');
 
@@ -35,5 +33,3 @@ const seedProducts = async (Model, jsonFilePath) => {
 }
 
 seedProducts(Laptop, './laptops.json');
-// seedProducts(Headphone, './headphones.json');
-// seedProducts(Monitor, './monitors.json');
