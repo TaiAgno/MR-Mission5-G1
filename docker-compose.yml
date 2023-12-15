@@ -20,7 +20,7 @@ services:
     environment:
       - MONGO_URI=mongodb://mongo:27017/mongo
     ports:
-      - "3000:3000"
+      - "4000:4000"
     depends_on:
       - dbseed
     volumes:

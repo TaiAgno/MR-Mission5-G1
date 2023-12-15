@@ -1,392 +1,162 @@
 [
+  {
+    "brand": "Lenovo",
+    "model": "V15 G3",
+    "screen_size": 15.6,
+    "screen_resolution": "1920x1080",
+    "ram": "16GB DDR4",
+    "storage": "512GB SSD",
+    "gpu_model": "Integrated Intel® Iris® Xe Graphics",
+    "operating_system": "Windows 11 Pro",
+    "specs_performance": [
       {
-        "brand": "Dell",
-        "model": "Latitude 7410",
-        "screen_size": 14,
-        "screen_resolution": "Full HD",
-        "processor": "Intel Core i7-10610U",
-        "ram": 16,
-        "storage": "512GB SSD",
-        "gpu_model": "Intel UHD Graphics",
-        "operating_system": "Windows 10 Pro",
-        "more_specs": "Fingerprint reader, Thunderbolt 3",
-        "image": "./laptops/61Nt1PCGwML._AC_SL1200_.jpg"
+        "processor": "Intel® Core™ i5-1235U, 10C (2P + 8E) / 12T, P-core 1.3 / 4.4GHz, E-core 0.9 / 3.3GHz, 12MB",
+        "graphics": "Integrated Intel® Iris® Xe Graphics",  
+        "chipset": "Intel® SoC Platform",
+        "memory": "16GB (8GB Soldered DDR4-3200 + 8GB SO-DIMM DDR4-3200)",
+        "memory_slots": "One memory soldered to systemboard, one DDR4 SO-DIMM slot, dual-channel capable",
+        "storage": "512GB SSD M.2 2242 PCIe® 4.0x4 NVMe®",
+        "storage_support": "Models with 38Wh battery: one 2.5'' drive slot + one M.2 slot <br>- One 2.5'' SATA HDD slot <br>- One M.2 2280 PCIe® 4.0 x4 slot",
+        "card_reader": "None",
+        "optical": "None",
+        "audio": "High Definition (HD) Audio, Realtek® ALC3287 codec",
+        "speaker": "Stereo speakers, 1.5W x2, Dolby® Audio™",
+        "camera": "HD 720p with Privacy Shutter",
+        "microphone": "2x, Array",
+        "battery": "Integrated 38Wh",
+        "power_supply": "65W Round Tip (3-pin)"
+      }
+    ],
+    "specs_design": [
+      {
+        "display": "15.6'' FHD (1920x1080) IPS 300nits Anti-glare",
+        "touchscreen": "None",
+        "keyboard": "Non-backlit, English",
+        "case_color": "Iron Grey",
+        "surface_treatment": "IMR (In-Mold Decoration by Roller)",
+        "case_material": "PC-ABS (Top), PC-ABS (Bottom)",
+        "dimensions": "359 x 236 x 19.9 mm (14.13 x 9.29 x 0.78 inches)",
+        "weight": "Starting at 1.7 kg (3.75 lbs)"
+      }
+    ],
+    "specs_software": [
+      {
+        "operating_system": "Windows 11 Pro, English",
+        "bundled_software": "Office Trial"
+      }
+    ],
+    "specs_connectivity": [
+      {
+        "ethernet": "100/1000M (RJ-45)",
+        "WLAN": "11ac 2x2 + BT5.1",
+        "ports": "1x USB 2.0 <br>1x USB 3.2 Gen 1<br><br>1x USB-C® 3.2 Gen 1 (support data transfer, Power Delivery 3.0 and DisplayPort™ 1.2)<br>1x HDMI® 1.4b<br>1x Ethernet (RJ-45)<br>1x <br>Headphone / microphone combo jack (3.5mm)<br>1x Power connector",
+        "security_chip": "Firmware TPM 2.0 Enabled",
+        "fingerprint_reader": "None",
+        "physical_locks": "Kensington® Nano Security Slot™, 2.5 x 6 mm",
+        "other_security": "Camera privacy shutter"
+      }
+    ],
+    "rating": 5,
+    "reviews": [
+      {
+        "user": "Guest",
+        "comment": "Very good lap top dose way more than what we needed, great buy",
+        "rating": 5
       },
       {
-        "brand": "HP",
-        "model": "Elite Dragonfly",
-        "screen_size": 13.3,
-        "screen_resolution": "Full HD",
-        "processor": "Intel Core i5-8265U",
-        "ram": 8,
-        "storage": "256GB SSD",
-        "gpu_model": "Intel UHD Graphics 620",
-        "operating_system": "Windows 10 Pro",
-        "more_specs": "2-in-1 convertible, LTE connectivity",
-        "image": "./laptops/416oke7sSFL._AC_.jpg"
+        "user": "TechFanatic",
+        "comment": "Excellent build quality.",
+        "rating": 5
+      }
+    ],
+    "price": "$847.00",
+    "card_image": "./laptops/NBKLEN150353__1.jpg",
+    "images": [
+      "./laptops/NBKLEN150353__2.jpg",
+      "./laptops/NBKLEN150353__3.jpg",
+      "./laptops/NBKLEN150353__4.jpg",
+      "./laptops/NBKLEN150353__5.jpg"
+    ],
+    "tags": ["business", "gamer"]
+  },
+  {
+    "brand": "HP",
+    "model": "Elitebook 840 G6 (Green Book)",
+    "screen_size": 14,
+    "screen_resolution": "1920x1080",
+    "ram": "16GB DDR4",
+    "storage": "512GB SSD",
+    "gpu_model": "Integrated Intel® Iris® Xe Graphics",
+    "operating_system": "Windows 11 Pro",
+    "specs_performance": [
+      {
+        "processor": "",
+        "graphics": "",  
+        "chipset": "",
+        "memory": "",
+        "memory_slots": "",
+        "storage": "",
+        "storage_support": "",
+        "card_reader": "",
+        "optical": "",
+        "audio": "",
+        "speaker": "",
+        "camera": "",
+        "microphone": "",
+        "battery": "",
+        "power_supply": ""
+      }
+    ],
+    "specs_design": [
+      {
+        "display": "",
+        "touchscreen": "",
+        "keyboard": "",
+        "case_color": "",
+        "surface_treatment": "",
+        "case_material": "",
+        "dimensions": "",
+        "weight": ""
+      }
+    ],
+    "specs_software": [
+      {
+        "operating_system": "",
+        "bundled_software": ""
+      }
+    ],
+    "specs_connectivity": [
+      {
+        "ethernet": "",
+        "WLAN": "",
+        "ports": "",
+        "security_chip": "",
+        "fingerprint_reader": "",
+        "physical_locks": "",
+        "other_security": ""
+      }
+    ],
+    "rating": 5,
+    "reviews": [
+      {
+        "user": "Guest",
+        "comment": "Very good lap top dose way more than what we needed, great buy",
+        "rating": 5
       },
-        {
-            "brand": "Lenovo",
-            "model": "ThinkPad X1 Carbon",
-            "screen_size": 14,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i5-8265U",
-            "ram": 8,
-            "storage": "256GB SSD",
-            "gpu_model": "Intel UHD Graphics 620",
-            "operating_system": "Windows 10 Pro",
-            "more_specs": "Fingerprint reader, Thunderbolt 3",
-            "image": "./laptops/51GDrS+tTkL._AC_SL1200_.jpg"
-        },
-        {
-            "brand": "Apple",
-            "model": "MacBook Pro 13",
-            "screen_size": 13.3,
-            "screen_resolution": "Retina",
-            "processor": "Intel Core i5-8257U",
-            "ram": 8,
-            "storage": "256GB SSD",
-            "gpu_model": "Intel Iris Plus Graphics 645",
-            "operating_system": "macOS",
-            "more_specs": "Touch Bar, Touch ID",
-            "image": "./laptops/31wQtIlCAWL._AC_.jpg"
-        },
-        {
-            "brand": "Microsoft",
-            "model": "Surface Laptop 3",
-            "screen_size": 13.5,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i5-1035G7",
-            "ram": 8,
-            "storage": "128GB SSD",
-            "gpu_model": "Intel Iris Plus Graphics",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "Touchscreen, Alcantara fabric",
-            "image": "./laptops/71h6PpGaz9L._AC_SL1500_.jpg"
-        },
-        {
-            "brand": "Asus",
-            "model": "ZenBook 13",
-            "screen_size": 13.3,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i5-8265U",
-            "ram": 8,
-            "storage": "256GB SSD",
-            "gpu_model": "Intel UHD Graphics 620",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "Touchscreen, NumberPad",
-            "image": "./laptops/81pxpEuxFFL._AC_SL1500_.jpg"
-        },
-        {
-            "brand": "Acer",
-            "model": "TravelMate P6",
-            "screen_size": 14,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i7-1165G7",
-            "ram": 16,
-            "storage": "512GB SSD",
-            "gpu_model": "Intel Iris Xe Graphics",
-            "operating_system": "Windows 10 Pro",
-            "more_specs": "MIL-STD-810G certified, Acer ProShield security",
-            "image": ".laptops/71y2OudJ4QL._AC_SL1500_.jpg"
-          },
-          {
-            "brand": "Asus",
-            "model": "ExpertBook B9",
-            "screen_size": 14,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i7-1165G7",
-            "ram": 16,
-            "storage": "1TB SSD",
-            "gpu_model": "Intel Iris Xe Graphics",
-            "operating_system": "Windows 10 Pro",
-            "more_specs": "MIL-STD-810H certified, NumberPad 2.0",
-            "image": "./laptops/71EozoeQdVL._AC_SL1500_.jpg"
-          },
-          {
-            "brand": "Razer",
-            "model": "Book 13",
-            "screen_size": 13.4,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i7-1165G7",
-            "ram": 16,
-            "storage": "512GB SSD",
-            "gpu_model": "Intel Iris Xe Graphics",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "Ultra-thin bezels, CNC aluminum chassis",
-            "image": "./laptops/71zLNzhPvzL._AC_SL1500_.jpg"
-          },
-          {
-            "brand": "Lenovo",
-            "model": "ThinkPad X1 Nano",
-            "screen_size": 13,
-            "screen_resolution": "2K",
-            "processor": "Intel Core i7-1160G7",
-            "ram": 16,
-            "storage": "512GB SSD",
-            "gpu_model": "Intel Iris Xe Graphics",
-            "operating_system": "Windows 10 Pro",
-            "more_specs": "MIL-STD-810G certified, Dolby Atmos sound",
-            "image": "./laptops/717x-CIsqvL._AC_SL1500_.jpg"
-          },
-          {
-            "brand": "HP",
-            "model": "Spectre x360 14",
-            "screen_size": 13.5,
-            "screen_resolution": "3K2K",
-            "processor": "Intel Core i7-1165G7",
-            "ram": 16,
-            "storage": "1TB SSD",
-            "gpu_model": "Intel Iris Xe Graphics",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "360-degree hinge, Thunderbolt 4",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Dell",
-            "model": "XPS 13",
-            "screen_size": 13.4,
-            "screen_resolution": "4K Ultra HD",
-            "processor": "Intel Core i7-1185G7",
-            "ram": 16,
-            "storage": "512GB SSD",
-            "gpu_model": "Intel Iris Xe Graphics",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "InfinityEdge display, Killer Wi-Fi 6",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Microsoft",
-            "model": "Surface Laptop 4",
-            "screen_size": 15,
-            "screen_resolution": "PixelSense touchscreen",
-            "processor": "Intel Core i7-1185G7",
-            "ram": 32,
-            "storage": "512GB SSD",
-            "gpu_model": "Intel Iris Xe Graphics",
-            "operating_system": "Windows 10 Pro",
-            "more_specs": "Alcantara keyboard, USB-C and USB-A ports",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "LG",
-            "model": "Gram 17",
-            "screen_size": 17,
-            "screen_resolution": "WQXGA",
-            "processor": "Intel Core i7-1165G7",
-            "ram": 16,
-            "storage": "1TB SSD",
-            "gpu_model": "Intel Iris Xe Graphics",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "Ultra-lightweight design, 17-hour battery life",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Samsung",
-            "model": "Galaxy Book Pro",
-            "screen_size": 15.6,
-            "screen_resolution": "AMOLED Full HD",
-            "processor": "Intel Core i7-1165G7",
-            "ram": 16,
-            "storage": "512GB NVMe SSD",
-            "gpu_model": "Intel Iris Xe Graphics",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "Super AMOLED display, Thunderbolt 4",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Toshiba",
-            "model": "Portégé X30W-J",
-            "screen_size": 13.3,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i5-1135G7",
-            "ram": 8,
-            "storage": "256GB NVMe SSD",
-            "gpu_model": "Intel Iris Xe Graphics",
-            "operating_system": "Windows 10 Pro",
-            "more_specs": "2-in-1 design, Dynabook Trusted Platform Module",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Razer",
-            "model": "Blade Stealth 13",
-            "screen_size": 13.3,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i7-1165G7",
-            "ram": 16,
-            "storage": "512GB SSD",
-            "gpu_model": "NVIDIA GeForce GTX 1650 Ti",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "RGB Chroma keyboard, Thunderbolt 4",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Huawei",
-            "model": "MateBook X Pro",
-            "screen_size": 13.9,
-            "screen_resolution": "3K LTPS",
-            "processor": "Intel Core i7-10510U",
-            "ram": 16,
-            "storage": "1TB SSD",
-            "gpu_model": "NVIDIA GeForce MX250",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "Pop-up webcam, Dolby Atmos sound",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Sony",
-            "model": "VAIO Z",
-            "screen_size": 14,
-            "screen_resolution": "4K Ultra HD",
-            "processor": "Intel Core i7-11375H",
-            "ram": 32,
-            "storage": "1TB NVMe SSD",
-            "gpu_model": "Intel Iris Xe Graphics",
-            "operating_system": "Windows 10 Pro",
-            "more_specs": "Carbon fiber build, HDMI and Thunderbolt 4",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "MSI",
-            "model": "Prestige 14",
-            "screen_size": 14,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i7-1185G7",
-            "ram": 16,
-            "storage": "512GB NVMe SSD",
-            "gpu_model": "NVIDIA GeForce GTX 1650 Max-Q",
-            "operating_system": "Windows 10 Pro",
-            "more_specs": "True Color Technology, Prestige Series design",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Fujitsu",
-            "model": "LifeBook U939X",
-            "screen_size": 13.3,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i7-8665U",
-            "ram": 16,
-            "storage": "256GB SSD",
-            "gpu_model": "Intel UHD Graphics 620",
-            "operating_system": "Windows 10 Pro",
-            "more_specs": "2-in-1 convertible, PalmSecure technology",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Xiaomi",
-            "model": "Mi Laptop Air",
-            "screen_size": 13.3,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i5-8250U",
-            "ram": 8,
-            "storage": "256GB SSD",
-            "gpu_model": "NVIDIA GeForce MX150",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "Slim aluminum body, USB-C port",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Google",
-            "model": "Pixelbook Go",
-            "screen_size": 13.3,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i5-8200Y",
-            "ram": 8,
-            "storage": "128GB SSD",
-            "gpu_model": "Intel UHD Graphics 615",
-            "operating_system": "Chrome OS",
-            "more_specs": "Lightweight design, Hush Keys for quiet typing",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Gateway",
-            "model": "Creator Series 15",
-            "screen_size": 15.6,
-            "screen_resolution": "4K Ultra HD",
-            "processor": "AMD Ryzen 9 5900HX",
-            "ram": 32,
-            "storage": "1TB NVMe SSD",
-            "gpu_model": "NVIDIA GeForce RTX 3070",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "144Hz refresh rate, CNC aluminum chassis",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Panasonic",
-            "model": "Toughbook 55",
-            "screen_size": 14,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i5-8365U",
-            "ram": 16,
-            "storage": "512GB SSD",
-            "gpu_model": "Intel UHD Graphics 620",
-            "operating_system": "Windows 10 Pro",
-            "more_specs": "Rugged design, MIL-STD-810H certified",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Vizio",
-            "model": "Thin + Light",
-            "screen_size": 15.6,
-            "screen_resolution": "4K Ultra HD",
-            "processor": "Intel Core i7-9750H",
-            "ram": 16,
-            "storage": "512GB SSD",
-            "gpu_model": "NVIDIA GeForce GTX 1650",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "Ultra-thin bezels, DTS Audio",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Acer",
-            "model": "Predator Helios 300",
-            "screen_size": 15.6,
-            "screen_resolution": "Full HD",
-            "processor": "Intel Core i7-10750H",
-            "ram": 16,
-            "storage": "512GB NVMe SSD",
-            "gpu_model": "NVIDIA GeForce RTX 3060",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "144Hz refresh rate, RGB keyboard",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Dell",
-            "model": "Inspiron 14 5000",
-            "screen_size": 14,
-            "screen_resolution": "Full HD",
-            "processor": "AMD Ryzen 5 4500U",
-            "ram": 8,
-            "storage": "256GB SSD",
-            "gpu_model": "AMD Radeon Graphics",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "Dell Mobile Connect, Waves MaxxAudio",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "Lenovo",
-            "model": "IdeaPad 5",
-            "screen_size": 15.6,
-            "screen_resolution": "Full HD",
-            "processor": "AMD Ryzen 7 4700U",
-            "ram": 16,
-            "storage": "512GB SSD",
-            "gpu_model": "AMD Radeon Graphics",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "Backlit keyboard, Rapid Charge",
-            "image": "url_to_image"
-          },
-          {
-            "brand": "HP",
-            "model": "Spectre x360",
-            "screen_size": 13.3,
-            "screen_resolution": "4K OLED",
-            "processor": "Intel Core i7-1165G7",
-            "ram": 16,
-            "storage": "1TB SSD",
-            "gpu_model": "Intel Iris Xe Graphics",
-            "operating_system": "Windows 10 Home",
-            "more_specs": "360-degree hinge, HP Sure View privacy screen",
-            "image": "url_to_image"
-          }
+      {
+        "user": "TechFanatic",
+        "comment": "Excellent build quality.",
+        "rating": 5
+      }
+    ],
+    "price": "$847.00",
+    "card_image": "./laptops/NBKLEN150353__1.jpg",
+    "images": [
+      "./laptops/NBKLEN150353__2.jpg",
+      "./laptops/NBKLEN150353__3.jpg",
+      "./laptops/NBKLEN150353__4.jpg",
+      "./laptops/NBKLEN150353__5.jpg"
+    ],
+    "tags": ["business", "gamer"]
+  }
     ]
