@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MR-Mission5-G1/static/css/main.12782628.css",
+    "main.js": "/MR-Mission5-G1/static/js/main.58dcaa99.js",
+    "static/media/dm-sans-latin-400-normal.woff": "/MR-Mission5-G1/static/media/dm-sans-latin-400-normal.128bd84c17f6eb4db8ec.woff",
+    "static/media/space-grotesk-latin-400-normal.woff": "/MR-Mission5-G1/static/media/space-grotesk-latin-400-normal.a211e01f0870d5a33fb9.woff",
+    "static/media/space-grotesk-latin-ext-400-normal.woff": "/MR-Mission5-G1/static/media/space-grotesk-latin-ext-400-normal.0684df5ac67f6e62accb.woff",
+    "static/media/basketorange.png": "/MR-Mission5-G1/static/media/basketorange.4672147e51129ed3b266.png",
+    "static/media/dm-sans-latin-400-normal.woff2": "/MR-Mission5-G1/static/media/dm-sans-latin-400-normal.8aae4f3d5a6a62dc3dae.woff2",
+    "static/media/space-grotesk-latin-400-normal.woff2": "/MR-Mission5-G1/static/media/space-grotesk-latin-400-normal.cae74bffb55394a5ba8f.woff2",
+    "static/media/space-grotesk-latin-ext-400-normal.woff2": "/MR-Mission5-G1/static/media/space-grotesk-latin-ext-400-normal.ed993877ec04456bd5df.woff2",
+    "static/media/dm-sans-latin-ext-400-normal.woff": "/MR-Mission5-G1/static/media/dm-sans-latin-ext-400-normal.1e1b9a85c4b35caf7042.woff",
+    "static/media/dm-sans-latin-ext-400-normal.woff2": "/MR-Mission5-G1/static/media/dm-sans-latin-ext-400-normal.8d403ac2bf526dbdd75a.woff2",
+    "static/media/space-grotesk-vietnamese-400-normal.woff": "/MR-Mission5-G1/static/media/space-grotesk-vietnamese-400-normal.da46d90d1320c7bd6623.woff",
+    "static/media/space-grotesk-vietnamese-400-normal.woff2": "/MR-Mission5-G1/static/media/space-grotesk-vietnamese-400-normal.4741b38fb53bf09be42b.woff2",
+    "static/media/nzflag.svg": "/MR-Mission5-G1/static/media/nzflag.9dd8393934e238dbb354dd645275c7bc.svg",
+    "index.html": "/MR-Mission5-G1/index.html",
+    "main.12782628.css.map": "/MR-Mission5-G1/static/css/main.12782628.css.map",
+    "main.58dcaa99.js.map": "/MR-Mission5-G1/static/js/main.58dcaa99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12782628.css",
+    "static/js/main.58dcaa99.js"
+  ]
+}
