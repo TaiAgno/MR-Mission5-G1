@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/MR-Mission5-G1/static/css/main.12782628.css",
-    "main.js": "/MR-Mission5-G1/static/js/main.58dcaa99.js",
+    "main.css": "/MR-Mission5-G1/static/css/main.5d570c9d.css",
+    "main.js": "/MR-Mission5-G1/static/js/main.9d8638ed.js",
+    "static/media/iphone.jpg": "/MR-Mission5-G1/static/media/iphone.5b3844dbb2f7e8b9d8ca.jpg",
+    "static/media/homepage-hero.jpg": "/MR-Mission5-G1/static/media/homepage-hero.40f9d2ccf4bbbc8e3e4f.jpg",
     "static/media/dm-sans-latin-400-normal.woff": "/MR-Mission5-G1/static/media/dm-sans-latin-400-normal.128bd84c17f6eb4db8ec.woff",
     "static/media/space-grotesk-latin-400-normal.woff": "/MR-Mission5-G1/static/media/space-grotesk-latin-400-normal.a211e01f0870d5a33fb9.woff",
     "static/media/space-grotesk-latin-ext-400-normal.woff": "/MR-Mission5-G1/static/media/space-grotesk-latin-ext-400-normal.0684df5ac67f6e62accb.woff",
@@ -15,11 +17,11 @@
     "static/media/space-grotesk-vietnamese-400-normal.woff2": "/MR-Mission5-G1/static/media/space-grotesk-vietnamese-400-normal.4741b38fb53bf09be42b.woff2",
     "static/media/nzflag.svg": "/MR-Mission5-G1/static/media/nzflag.9dd8393934e238dbb354dd645275c7bc.svg",
     "index.html": "/MR-Mission5-G1/index.html",
-    "main.12782628.css.map": "/MR-Mission5-G1/static/css/main.12782628.css.map",
-    "main.58dcaa99.js.map": "/MR-Mission5-G1/static/js/main.58dcaa99.js.map"
+    "main.5d570c9d.css.map": "/MR-Mission5-G1/static/css/main.5d570c9d.css.map",
+    "main.9d8638ed.js.map": "/MR-Mission5-G1/static/js/main.9d8638ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.12782628.css",
-    "static/js/main.58dcaa99.js"
+    "static/css/main.5d570c9d.css",
+    "static/js/main.9d8638ed.js"
   ]
 }
