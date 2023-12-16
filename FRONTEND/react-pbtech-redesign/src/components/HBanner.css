@@ -1,0 +1,8 @@
+.horizontal-banner {
+  border-radius: 10px;
+opacity: var(--Quantity, 1);
+background: lightgray 0.118px -296.384px / 100% 501.724% no-repeat;
+    width: 1106px;
+height: 178px;
+flex-shrink: 0;
+  }
