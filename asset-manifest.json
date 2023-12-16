@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/MR-Mission5-G1/static/css/main.5d570c9d.css",
-    "main.js": "/MR-Mission5-G1/static/js/main.9d8638ed.js",
+    "main.css": "/MR-Mission5-G1/static/css/main.311b2bc6.css",
+    "main.js": "/MR-Mission5-G1/static/js/main.13e7170c.js",
     "static/media/iphone.jpg": "/MR-Mission5-G1/static/media/iphone.5b3844dbb2f7e8b9d8ca.jpg",
+    "static/media/promo2.png": "/MR-Mission5-G1/static/media/promo2.df4d4cf07bc53bd8ffae.png",
+    "static/media/promo-mobile.jpg": "/MR-Mission5-G1/static/media/promo-mobile.50b6639b0fd437c04b96.jpg",
+    "static/media/NBKLEN150353__1.jpg": "/MR-Mission5-G1/static/media/NBKLEN150353__1.c7eb5aef064292717d6e.jpg",
     "static/media/homepage-hero.jpg": "/MR-Mission5-G1/static/media/homepage-hero.40f9d2ccf4bbbc8e3e4f.jpg",
+    "static/media/promo3.png": "/MR-Mission5-G1/static/media/promo3.d333bbf44224cc7603db.png",
+    "static/media/promo1.png": "/MR-Mission5-G1/static/media/promo1.2e160448f900233e73c7.png",
     "static/media/dm-sans-latin-400-normal.woff": "/MR-Mission5-G1/static/media/dm-sans-latin-400-normal.128bd84c17f6eb4db8ec.woff",
     "static/media/space-grotesk-latin-400-normal.woff": "/MR-Mission5-G1/static/media/space-grotesk-latin-400-normal.a211e01f0870d5a33fb9.woff",
     "static/media/space-grotesk-latin-ext-400-normal.woff": "/MR-Mission5-G1/static/media/space-grotesk-latin-ext-400-normal.0684df5ac67f6e62accb.woff",
@@ -17,11 +22,11 @@
     "static/media/space-grotesk-vietnamese-400-normal.woff2": "/MR-Mission5-G1/static/media/space-grotesk-vietnamese-400-normal.4741b38fb53bf09be42b.woff2",
     "static/media/nzflag.svg": "/MR-Mission5-G1/static/media/nzflag.9dd8393934e238dbb354dd645275c7bc.svg",
     "index.html": "/MR-Mission5-G1/index.html",
-    "main.5d570c9d.css.map": "/MR-Mission5-G1/static/css/main.5d570c9d.css.map",
-    "main.9d8638ed.js.map": "/MR-Mission5-G1/static/js/main.9d8638ed.js.map"
+    "main.311b2bc6.css.map": "/MR-Mission5-G1/static/css/main.311b2bc6.css.map",
+    "main.13e7170c.js.map": "/MR-Mission5-G1/static/js/main.13e7170c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d570c9d.css",
-    "static/js/main.9d8638ed.js"
+    "static/css/main.311b2bc6.css",
+    "static/js/main.13e7170c.js"
   ]
 }
