@@ -1,7 +1,7 @@
 .banner-container {
   position: relative;
   display: flex;
-  justify-content: center; /* This centers the content horizontally */
+  justify-content: center;
   align-items: center;
 }
 
@@ -14,13 +14,15 @@
 .parent {
     width: 90%;
     margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom:30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    align-items: center;
   }
   
   .hero {
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
  }
 
  .banner-overlay {
@@ -52,10 +54,14 @@
   bottom: -35px;
   opacity: 1;
 }
+
+.banner-subtitle.mobile {
+  display: none;
+}
   
   .columns {
     display: flex;
-
+    
   }
   
   .side-banner {
@@ -65,6 +71,7 @@
   
   .right-column {
     flex: 1;
+    width: 100%;
   }
   
   .promotions-title, .products-title {
@@ -88,9 +95,19 @@
     align-items: flex-start;
   }
   
-  .promo-cards, .product-cards {
+  .promo-cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    width: 90%;
+    margin-bottom:20px;
+  }
+
+  .product-cards {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom:20px;
   }
 
   .home-button-container {
@@ -98,3 +115,103 @@
     display: flex;
     justify-content: flex-end;
   }
+
+  @media screen and (max-width:1340px) {
+      .side-banner {
+    display: none;
+  }
+  .columns {
+    margin-left: 10%;
+  }
+}
+
+  @media screen and (max-width: 1250px) {
+    .banner-button {
+      position: absolute;
+      top: 70%;
+      left: 75%;
+    }
+    .banner-text {
+      position: absolute;
+      left: 20px;
+      margin: 0;
+    }
+    
+    .banner-title {
+      font-size: 34px;
+    }
+    
+    .banner-subtitle {
+      font-size: 24px;
+      line-height: 20px;
+      bottom: -20px;
+      width: 400px;
+    }
+    .banner-subtitle.desktop {
+      display: none;
+    }
+  
+    .banner-subtitle.mobile {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 1160px) {
+.hide {
+  display: none !important;
+}
+  }
+
+  @media screen and (max-width: 850px) {
+    .promo-cards {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+    }
+
+    .product-cards {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      height: auto;
+    }
+    .columns {
+      margin-left: 0;
+    }
+    .section-hline {
+
+      width: 100%;
+
+      margin-right: 0;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .banner-button {
+      position: absolute;
+      top: 70%;
+      left: 68%;
+    }
+    .banner-text {
+      position: absolute;
+      left: 20px;
+      top: -6%;
+
+    }
+    
+    .banner-title {
+      font-size: 20px;
+      width: 200px;
+      font-weight: 900;
+    }
+    
+    .banner-subtitle {
+      font-size: 14px;
+      bottom: -15px;
+width: 250px;;
+    }
+    .promotions-title, .products-title {
+      font-size: 18px;
+      margin: 0;
+    }
+      }

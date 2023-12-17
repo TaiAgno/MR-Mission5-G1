@@ -127,6 +127,43 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border: none;
     font-size: 14px;
   }
+  @media screen and (max-width: 1250px) {
+    .btn-cta {
+        background-color: #fff;
+        color: #456FAA;
+        border: none;
+        box-shadow: none;
+        height: 20px;
+        width: 100px;
+        padding: 2px 8px;
+        transition: transform 0.5s ease, font-size 0.5s ease; /* animate the transform and font-size properties */
+        font-size: 14px; /* initial font size */
+        display: inline-block; /* needed for transform to work */
+    }
+    
+    .btn-cta:hover {
+        transform: scaleX(1.2); /* scale the width to 120% */
+        font-size: 16px; /* increase the font size */
+    }
+    
+    .cta-text {
+        display: none;
+    }
+    .btn-cta::before {
+        content: "Shop Now";
+    }
+  }
+@media screen and (max-width: 1160px) {
+  .btn-card {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: url('../media/basketorange.png') center/contain no-repeat;
+  }
+  .card-button-text {
+    display: none;
+  }
+}
 
   @media screen and (max-width: 820px) {
     .btn-footer {
@@ -137,29 +174,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
      align-items: center;
     }
 
-    .btn-cta {
-        background-color: #fff;
-        color: #456FAA;
-        border: none;
-        box-shadow: none;
-        height: 30px;
-        width: 140px;
-        padding: 8px 12px;
-        transition: transform 0.5s ease, font-size 0.5s ease; /* animate the transform and font-size properties */
-        font-size: 14px; /* initial font size */
-        display: inline-block; /* needed for transform to work */
-    }
-    
-    .btn-cta:hover {
-        transform: scaleX(1.2); /* scale the width to 120% */
-        font-size: 16px; /* increase the font size */
-    }
-    .cta-text {
-        display: none;
-    }
-    .btn-cta::before {
-        content: "Shop Now";
-    }
+
 .btn-small {
     width: 40px;
     height: 40px;
@@ -183,14 +198,6 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         .btn-gray {
             width: 40px;
             background-color: #D9D9D9;
-        }
-
-        .btn-card {
-            width: 30px;
-            height: 30px;
-            border-radius: 50px;
-            background: url('../media/basketorange.png') center/contain no-repeat;
-
         }
 
         .button-text {
