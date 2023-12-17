@@ -1,0 +1,162 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* TOP NAVBAR */
+  .navbar-top {
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    gap: 50px;
+    height: 25px;
+    background-color: #021724;
+  }
+
+  .navbar-top-item {
+    background-color: transparent;
+    border: 0;
+    display: flexbox;
+    justify-content:flex-start;
+    color: #fff;
+  }
+
+  .navbar-top-left-item {
+    margin-left: auto;
+    margin-right: 40px;
+  }
+
+  .navbar-top-item:hover, .navbar-top-left-item:hover {
+    border-bottom: 1px solid #fff;
+  }
+
+  /* MIDDLE NAVBAR */
+  .navbar-middle {
+    display: flex;
+    justify-content: space-between;
+    height: 185px;
+    background-color: #0B5077;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+  }
+
+  .logo img {
+    width: 200px;
+    height: auto;
+  }
+
+  .search {
+    margin-left: 5%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 33px;
+  }
+
+  .input-button-wrapper {
+    position: relative;
+  }
+  
+  .input-button-wrapper .btn {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+  }
+
+  .search-by-department {
+    background-color: #FFF;
+    color: #0B5077;
+    font-size: 12px;
+    height: 32px;
+    width: 180px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  .search-options {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .selected-departments {
+  color: #fff;
+  }
+
+  .client-buttons {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 40px;
+  }
+
+  .search-bar input {
+    border-radius: 10px;
+    height: 50px;
+    width: 648px;
+  }
+
+  /* BOTTOM NAVBAR */
+  .navbar-bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    gap: 50px;
+    border-radius: 10px 10px 0px 0px;
+    height: 25px;
+    background-color: #FD7E14;
+    margin-top: -25px;
+  }
+  
+  .navbar-bottom-item {
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+  }
+
+  /* RESPONSIVE BREAKPOINTS */
+  @media screen and (max-width: 1500px) {
+    .logo {
+      width: 20%;
+    }
+
+    .search {  
+      margin-left: 0;
+    }
+
+    .client-buttons {
+      width: 35%;
+      margin-right: 0px;
+      margin-top: 80px;
+      gap: 20px;
+      justify-content: flex-end;
+      margin-right: 5%;
+    }
+  }
+  @media screen and (max-width: 1380px) {
+  .client-buttons {
+    margin-right: 2%;
+  }
+  }
+
+  /* FULL RESPONSIVE MODE*/
+  @media screen and (max-width: 1280px) {
+
+  }

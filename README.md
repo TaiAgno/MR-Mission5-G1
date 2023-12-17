@@ -11,7 +11,7 @@ Week 2 - Develop front end prototype based in the UXs team input, to also be con
 
 SELF-DISCLAIMER
 
-A mamoth operation, ongoing with lots of coffee and determination.
+A mammoth operation, ongoing with lots of coffee and determination.
 
 ## Getting Started
 

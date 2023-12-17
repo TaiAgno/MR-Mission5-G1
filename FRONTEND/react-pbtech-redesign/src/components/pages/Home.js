@@ -2,10 +2,6 @@ import React, { useState, useEffect } from 'react';
 import '../../App.css';
 import './Home.css';
 import { Button } from '../../components/Button';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import { faArrowLeftRotate } from '@fortawesome/free-solid-svg-icons';
-import { faUser } from '@fortawesome/free-solid-svg-icons'
 import VBanner from '../../components/VBanner';
 import HBanner from '../../components/HBanner';
 import iphoneImage from '../../media/iphone.jpg';
