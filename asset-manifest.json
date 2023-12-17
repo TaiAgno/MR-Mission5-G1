@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MR-Mission5-G1/static/css/main.0d8ba290.css",
-    "main.js": "/MR-Mission5-G1/static/js/main.b764655b.js",
+    "main.css": "/MR-Mission5-G1/static/css/main.5f36501e.css",
+    "main.js": "/MR-Mission5-G1/static/js/main.11cdbe44.js",
     "static/media/iphone.jpg": "/MR-Mission5-G1/static/media/iphone.5b3844dbb2f7e8b9d8ca.jpg",
     "static/media/promo2.png": "/MR-Mission5-G1/static/media/promo2.df4d4cf07bc53bd8ffae.png",
     "static/media/promo-mobile.jpg": "/MR-Mission5-G1/static/media/promo-mobile.50b6639b0fd437c04b96.jpg",
@@ -23,11 +23,11 @@
     "static/media/space-grotesk-vietnamese-400-normal.woff2": "/MR-Mission5-G1/static/media/space-grotesk-vietnamese-400-normal.4741b38fb53bf09be42b.woff2",
     "static/media/nzflag.svg": "/MR-Mission5-G1/static/media/nzflag.9dd8393934e238dbb354dd645275c7bc.svg",
     "index.html": "/MR-Mission5-G1/index.html",
-    "main.0d8ba290.css.map": "/MR-Mission5-G1/static/css/main.0d8ba290.css.map",
-    "main.b764655b.js.map": "/MR-Mission5-G1/static/js/main.b764655b.js.map"
+    "main.5f36501e.css.map": "/MR-Mission5-G1/static/css/main.5f36501e.css.map",
+    "main.11cdbe44.js.map": "/MR-Mission5-G1/static/js/main.11cdbe44.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d8ba290.css",
-    "static/js/main.b764655b.js"
+    "static/css/main.5f36501e.css",
+    "static/js/main.11cdbe44.js"
   ]
 }
