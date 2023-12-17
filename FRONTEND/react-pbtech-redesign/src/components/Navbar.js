@@ -8,7 +8,8 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { faArrowLeftRotate } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faMobileAlt } from '@fortawesome/free-solid-svg-icons';
-
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 
 function Navbar() {
@@ -29,6 +30,17 @@ function Navbar() {
       <button className="navbar-top-item"><FontAwesomeIcon icon={faMobileAlt} style={{color: "#ffffff"}} /> Get the PB Tech App</button>
       </div>
       </div>
+      <div className="navbar-middle-hiden">
+        <div className="menu-search">
+  <FontAwesomeIcon icon={faBars} size="1x" style={{color: "#ffffff"}}/>
+  <FontAwesomeIcon icon={faSearch} size="1x" style={{color: "#ffffff"}} />
+  <div className="hidden-logo"><img src={logo} alt="Logo" /></div>
+  <div className="client-buttons">
+        <Button className='btn btn-blue btn-small-navbar btn-no-hover'><FontAwesomeIcon icon={faUser} size="1x" style={{color: "#ffffff"}} /> <span className="button-text-navbar">Log In</span></Button>
+        <Button className='btn btn-orange btn-small-navbar btn-no-hover'><FontAwesomeIcon className="white-icon"icon={faShoppingCart} size="1x"/> <span className="button-text-navbar">Your Cart</span></Button>    
+    </div>
+    </div>
+</div>
       <div className="navbar-middle">
         <div className="logo"><img src={logo} alt="Logo" /></div>
         <div className="search">
@@ -46,8 +58,8 @@ function Navbar() {
   </div>
 </div>
         <div className="client-buttons">
-        <Button className='btn btn-blue btn-small-navbar btn-no-hover'><FontAwesomeIcon icon={faUser} style={{color: "#ffffff"}} /> <span className="button-text-navbar">Log In</span></Button>
-        <Button className='btn btn-orange btn-small-navbar btn-no-hover'><FontAwesomeIcon className="white-icon"icon={faShoppingCart}/> <span className="button-text-navbar">Your Cart</span></Button>    
+        <Button className='btn btn-blue btn-small-navbar btn-no-hover'><FontAwesomeIcon icon={faUser}  style={{color: "#ffffff"}} /> <span className="button-text-navbar">Log In</span></Button>
+        <Button className='btn btn-orange btn-small-navbar btn-no-hover'><FontAwesomeIcon className="white-icon"icon={faShoppingCart} /> <span className="button-text-navbar">Your Cart</span></Button>    
     </div>
       </div>
 
