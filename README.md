@@ -43,8 +43,8 @@ Reviews of any kind will be highly appreciated.
 
 Please make a pull request and review the code adding your comments.
 
-## Authors
+## Author
 
-Tai Agnoletto, Keyz Mareko
+Tai Agnoletto - Collaborator added: Keyz Mareko
 
 Group 1, Dev Team, Mission Ready (October 2023 intake)

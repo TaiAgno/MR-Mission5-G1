@@ -14,7 +14,7 @@ import Promo2 from '../../media/promo2.png';
 import Promo3 from '../../media/promo3.png';
 import PromoM from '../../media/promo-mobile.jpg';
 
-function Home() {
+function Home({ setCartCount }) {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -49,9 +49,9 @@ function Home() {
     <hr className="section-hline"/>
   </div>
     <div className="promo-cards">
-    <PromoCard image={windowWidth > 850 ? Promo1 : PromoM} />
-      {windowWidth > 850 && <PromoCard image={Promo2} />}
-      {windowWidth > 850 && <PromoCard image={Promo3} />}
+    <PromoCard image={windowWidth > 1000 ? Promo1 : PromoM} />
+      {windowWidth > 1000 && <PromoCard image={Promo2} />}
+      {windowWidth > 1000 && <PromoCard image={Promo3} />}
     </div>
   <div className="home-button-container">
   <Button className='btn btn-blue btn-medium hide'><span className="button-text">See all Promotions</span></Button>
@@ -64,6 +64,7 @@ function Home() {
   </div>
   <div className="product-cards">
   <ProductCard 
+   setCartCount={setCartCount}
         brand="Lenovo" 
         model="V15 G3" 
         image={laptopImage}
@@ -71,6 +72,7 @@ function Home() {
         price="NZD$999"
       />
         <ProductCard 
+         setCartCount={setCartCount}
         brand="Lenovo" 
         model="V15 G3" 
         image={laptopImage}
@@ -78,6 +80,7 @@ function Home() {
         price="NZD$999"
       />
         <ProductCard 
+         setCartCount={setCartCount}
         brand="Lenovo" 
         model="V15 G3" 
         image={laptopImage}
@@ -85,6 +88,7 @@ function Home() {
         price="NZD$999"
       />
         <ProductCard 
+         setCartCount={setCartCount}
         brand="Lenovo" 
         model="V15 G3" 
         image={laptopImage}

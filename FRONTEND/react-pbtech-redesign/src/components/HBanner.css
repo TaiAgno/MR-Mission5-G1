@@ -1,7 +1,7 @@
 .horizontal-banner {
   border-radius: 10px;
 opacity: var(--Quantity, 1);
-background: lightgray 0.118px -296.384px / 100% 501.724% no-repeat;
+background: lightgray 0.118px -300px / 100% 501.724% no-repeat;
     width: 1106px;
 height: 178px;
 flex-shrink: 0;
@@ -18,7 +18,7 @@ flex-shrink: 0;
 .horizontal-banner {
   width: 360px;
     height: 100px;
-    background-position: 80% 55%; /* Adjust as needed */
+    background-position: 80% 55%;
 
 }
   }

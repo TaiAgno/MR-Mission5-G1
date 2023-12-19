@@ -2,9 +2,25 @@ import React, { useState } from 'react';
 import { Button } from './Button';
 import './ProductCard.css';
 import DropdownCard from './DropdownCard';
+import buttonTick from '../media/button-white-tick.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
-function ProductCard({ brand, model, image, specs, price, onCardClick }) {
+function ProductCard({ setCartCount, brand, model, image, specs, price, onCardClick }) {
   const [isOpen, setIsOpen] = useState(false);
+  const [inCart, setInCart] = useState(false);
+
+  //cart counter
+  const handleClick = () => {
+    setInCart(prevInCart => {
+      if (!prevInCart) {
+        setCartCount(prevCount => prevCount + 1);
+      } else {
+        setCartCount(prevCount => prevCount - 1);
+      }
+      return !prevInCart;
+    });
+  };
 
   return (
     <div className="product-card-container" onClick={onCardClick}>
@@ -68,13 +84,26 @@ function ProductCard({ brand, model, image, specs, price, onCardClick }) {
     }
       <div style={{flexGrow: 1}}></div>
       <div className="product-footer">
-        <Button className='btn btn-card btn-x-small'><span className="card-button-text">Add to Cart</span></Button>
-        <p className="product-price">{price}</p>
+      <Button 
+  className={inCart ? 'btn btn-cart-added btn-x-small' : 'btn btn-card btn-x-small'} 
+  onClick={(e) => {
+    e.stopPropagation();
+    handleClick();
+  }}
+>
+  <span className="card-button-text">{inCart ? <>
+      <img src={buttonTick} alt="Remove Item" />{' '}
+       Remove Item
+    </>  : <>
+    <FontAwesomeIcon icon={faShoppingCart} />{' '}
+       Add to Cart
+    </>}</span>
+</Button>       <p className="product-price">{price}</p>
       </div>
       <div className="responsive-product-price">
         <p className="product-price">{price}</p>
-        <Button className='btn btn-card btn-x-small'><span className="card-button-text">Add to Cart</span></Button>
-        </div>
+        <Button className={inCart ? 'btn btn-cart-added btn-x-small' : 'btn btn-card btn-x-small'} onClick={handleClick}>
+    </Button>        </div>
         <div className={`responsive-product-footer ${isOpen ? 'open' : ''}`}>
   <p className="">{brand} {model}</p>
   <div onClick={(e) => {e.stopPropagation(); setIsOpen(!isOpen)}}>

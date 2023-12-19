@@ -1,26 +1,37 @@
 .promo-card {
     max-width: 301px;
     width: 33%;
-    height: 200px;
-    border-radius: 20px;
-opacity: var(--Quantity, 1);
-background: url('../media/promo1.png') no-repeat center center;
-background-size: contain;
-margin-right: 20px;
-    }
-
-    .promo-card:not(:last-child) {
-        margin-right: 20px;
-    }
-
-@media screen and (max-width: 850px) {
+    height: 0;
+    padding-bottom: 20%;
+    border-radius: 10px;
+    background: url('../media/promo1.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .promo-card:last-child {
+    margin-right: 0;
+  }
+  
+  @media screen and (max-width: 1000px) {
     .promo-card {
-        max-width: 361px;
-        width: 100%;
-        position: relative;
-        background: url('../media/promo-mobile.jpg') no-repeat center center;
-        background-size: contain;
-        margin: 0px;
-        height: 120px;
-      }
-}
+      max-width: 660px;
+      width: 100%;
+      position: relative;
+      background: url('../media/promo-mobile.jpg');
+      background-size: contain;
+      background-repeat: no-repeat; 
+      background-position: center;
+      margin-right: 0px;
+      padding-bottom: 30%;
+      overflow: hidden;
+    }
+  
+    .promo-container .promo-card:last-child {
+      margin-right: 0;
+    }
+  }
