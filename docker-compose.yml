@@ -27,5 +27,12 @@ services:
       - ./BACKEND:/app
       - /app/node_modules
     restart: on-failure
+  frontend:
+    build:
+      context: ./FRONTEND/react-pbtech-redesign
+    ports:
+      - "3000:80"
+    depends_on:
+      - server
 volumes:
   db-volume:
