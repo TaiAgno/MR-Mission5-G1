@@ -1,0 +1,197 @@
+.footer-container {
+    background-color: #0B5077;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans";
+  }
+
+  .bottom-footer-container {
+    background-color: #5E879E;
+    padding: 1rem 0 0.2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans";
+    
+  }  
+  
+  .footer-links {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+  }
+  
+  .footer-link-wrapper {
+    display: flex;
+  }
+  
+  .footer-link-items,
+  .shop-department,
+  .phones-accessories {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    text-align: left;
+    width: auto;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-bottom: 5px;
+  }
+
+  .health {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    margin-left: -20px;
+    text-align: left;
+    width: auto;
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-bottom: 5px;
+  }
+
+ 
+  .footer-link-items h3,
+  .health h3,
+  .shop-department h3,
+  .phones-accessories  h3 {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  .footer-link-items a,
+  .health a,
+  .shop-department a,
+  .phones-accessories a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.3rem;
+    padding-left: 10px;
+  }
+  
+  .footer-link-items a:hover,
+  .health a:hover,
+  .shop-department a:hover,
+  .phones-accessories a:hover {
+    color: #e9e9e9;
+    transition: 0.3s ease-out;
+  }
+
+  .footer-link-items a::before,
+  .health a::before,
+  .shop-department a::before,
+  .phones-accessories a::before {
+    content: '• ';
+    color: #fff;
+  }
+
+    .footer-link-items a.no-bullet::before,
+  .health a.no-bullet::before,
+  .shop-department a.no-bullet::before,
+  .phones-accessories a.no-bullet::before {
+    content: '';
+  }
+
+  /* Social Icons */
+  .social-icon-link {
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  .social-media {
+    width: 100%;
+  }
+  
+  .social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    position: relative;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 40px;
+    margin-left: auto;
+  }
+
+  .social-icons-container {
+    position: absolute;
+    margin-right: 5%;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .footer-hline {
+    border: 0;
+    height: 3px;
+    background-color: #FFA238;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .website-rights {
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .footer-links {
+      padding-top:0.5rem;
+    }
+    
+    .social-media-wrap {
+      justify-content: center;
+      position: relative;
+      margin-top: 20px;
+      margin-bottom: -20px;
+    }
+  
+    .button-container {
+      align-items: center;
+      margin: none;
+    }
+    .bottom-footer-container {
+background-color: #0B5077;
+    }
+    .footer-hline {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .shop-department,
+    .phones-accessories,
+    .social-icons {
+      display: none;
+    }
+
+    .health {
+      width: 75px;
+    }
+  }

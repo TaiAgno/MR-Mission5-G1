@@ -1,0 +1,229 @@
+.product-card-container {
+  width: 200px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 200px;
+  min-height: 394px;
+  background-color: white;
+  border-radius: 15px;
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #B4B4B4;
+  transition: box-shadow 0.5s ease-in-out, border 0.5s ease-in-out;
+}
+
+.product-card:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border: 2px solid #0B5077;
+}
+
+.product-title {
+  color: black;
+  text-align: center;
+  font-size: 14px;
+}
+
+.product-image {
+  max-width: 100px;
+  max-height: auto;
+}
+
+.product-specs {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.spec-property {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 0;
+  margin: 0;
+}
+
+.spec-value {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 0;
+}
+
+.dropdown-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+  margin-top: 20px;
+}
+
+.more-specs-button {
+  width: 100%;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 1px;
+  margin-bottom: 0;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.horizontal-line {
+  width: 90%;
+  border-top: 0.3px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
+  max-height: 0;
+}
+
+.dropdown-menu.open {
+  max-height: 500px;
+  transition: max-height 0.5s ease-in-out;
+  display: flex;
+}
+
+.product-footer {
+  width: 200px;
+  height: 42px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0B5077;
+  margin-top:auto;
+}
+
+.product-price {
+  color:#fff;
+  font-size: 12px;
+}
+
+.responsive-product-footer, .responsive-product-price, .mobile-dropdown-card {
+  display: none; 
+}
+
+@media screen and (max-width: 1160px) {
+.product-card-container {
+  width: 176px;
+  margin: 5px;
+  flex-direction: column;
+  position: relative;
+}
+
+.product-card {
+flex-shrink: 0;
+width: 176px;
+min-height: 110px;
+border-radius: 10px;
+background: #FFF;
+border: none;
+position: relative;
+}
+
+.product-image {
+  max-width: auto;
+  max-height: auto;
+}
+
+.product-price {
+  color:black;
+  background-color: #FFBB3F;
+  border-radius: 10px 0px 0px 10px;
+  width: 100px;
+height: 12px;
+padding-left: 5px;
+padding-bottom: 5px;
+margin-right: -5px;
+flex-shrink: 0;
+font-weight: 400;
+font-size: 15px;
+}
+
+.dropdown-container, .horizontal-line, .product-title, .product-footer, .hide-specs, .dropdown-menu.open {
+  display: none;
+}
+.product-card:hover {
+  box-shadow: none;
+  border: none;
+}
+.responsive-product-price {
+  width: 176px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  margin-top: 65px;
+}
+
+.responsive-product-footer {
+  width: 176px;
+  height: 27px;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0B5077;
+  color:#FFF;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.responsive-product-footer.open .mobile-dropdown-card {
+  display: block;
+}
+
+.mobile-dropdown-card {
+  width: 168px;
+  background-color: #f9f9f9;
+  border-radius: 10px;;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: black; 
+  background-color: #D9D9D9;
+  font-size: 14px;
+
+  padding-left: 10px;
+  display: block;
+}
+
+.arrow-align-right {
+  text-align: right ;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.arrow-flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobile-card-property {
+font-weight: 700;
+margin-bottom: 0;
+}
+.mobile-card-value {
+  margin-top: 0;
+  font-weight: 400;
+}
+}
