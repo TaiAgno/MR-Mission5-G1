@@ -14,6 +14,14 @@
 }
 @media screen and (max-width: 800px) {
   .horizontal-banner {
+      width: 500px;
+      height: 125px;
+      background-position: 80% 53%;
+ }
+}
+
+@media screen and (max-width: 600px) {
+  .horizontal-banner {
       width: 360px;
       height: 100px;
       background-position: 80% 55%;
