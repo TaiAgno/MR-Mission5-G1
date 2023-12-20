@@ -71,7 +71,7 @@
       }
     ],
     "price": "$847.00",
-    "card_image": "./laptops/NBKLEN150353__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKLEN150331CSS__1.jpg?h=3735496406",
     "images": [
       "./laptops/NBKLEN150353__2.jpg",
       "./laptops/NBKLEN150353__3.jpg",
@@ -79,88 +79,6 @@
       "./laptops/NBKLEN150353__5.jpg"
     ],
     "tags": ["business", "gamer"]
-  },
-  {
-    "brand": "HP",
-    "model": "ProBook 450 G9",
-    "screen_size": "15.6 inches",
-    "screen_resolution": "1920x1080",
-    "cpu": "Intel Core i5",
-    "ram": "16GB DDR4",
-    "storage": "512GB SSD",
-    "gpu_model": "Integrated Graphics",
-    "operating_system": "Windows 10 Pro (Win 11 Upgrade Ready)",
-    "specs_performance": [
-      {
-        "processor": "N/A",
-        "graphics": "N/A",  
-        "chipset": "N/A",
-        "memory": "N/A",
-        "memory_slots": "N/A",
-        "storage": "N/A",
-        "storage_support": "N/A",
-        "card_reader": "N/A",
-        "optical": "N/A",
-        "audio": "N/A",
-        "speaker": "N/A",
-        "camera": "N/A",
-        "microphone": "N/A",
-        "battery": "N/A",
-        "power_supply": "N/A"
-      }
-    ],
-    "specs_design": [
-      {
-        "display": "N/A",
-        "touchscreen": "N/A",
-        "keyboard": "N/A",
-        "case_color": "N/A",
-        "surface_treatment": "N/A",
-        "case_material": "N/A",
-        "dimensions": "N/A",
-        "weight": "N/A"
-      }
-    ],
-    "specs_software": [
-      {
-        "operating_system": "N/A",
-        "bundled_software": "N/A"
-      }
-    ],
-    "specs_connectivity": [
-      {
-        "ethernet": "N/A",
-        "WLAN": "N/A",
-        "ports": "N/A",
-        "security_chip": "N/A",
-        "fingerprint_reader": "N/A",
-        "physical_locks": "N/A",
-        "other_security": "N/A"
-      }
-    ],
-    "rating": 4.5,
-    "reviews": [
-      {
-        "user": "Guest",
-        "comment": "This is a great laptop for school which is what I needed it for. However the first day I had it it was running extremely slow and a preinstalled HP antivirus was straight up corrupting my downloads or not downloading every file because it thought it was malware. This corrupted my windows as a whole and I was able to fix it because I'm pretty tech savvy the average Joe may have no clue how to solve the startup issues if it becomes a problem.",
-        "rating": 4
-      },
-      {
-        "user": "CraigF478",
-        "comment": "Upgraded the windows 10 Pro to 11 Pro runs like a dream great specs",
-        "rating": 5
-      }
-    ],
-    "price": "$1,494.00",
-    "card_image": "./laptops/NBKHNB450906__1.jpg",
-    "images": [
-      "./laptops/NBKHNB450906__2.jpg",
-      "./laptops/NBKHNB450906__3.jpg",
-      "./laptops/NBKHNB450906__4.jpg",
-      "./laptops/NBKHNB450906__5.jpg",
-      "./laptops/NBKHNB450906__6.jpg"
-    ],
-    "tags": ["business", "school"]
   },
   {
     "brand": "Apple",
@@ -223,7 +141,7 @@
     "rating": 5,
     "reviews": [],
     "price": "$2,334.99",
-    "card_image": "./laptops/NBKAPP215125614__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKAPP213225611__1.jpg?h=3725276401",
     "images": [
       "./laptops/NBKAPP215125614__2.jpg",
       "./laptops/NBKAPP215125614__4.jpg",
@@ -235,7 +153,7 @@
   },
   {
     "brand": "Acer",
-    "model": "Extensa 15 EX215-32",
+    "model": "EX215-32",
     "screen_size": "15.6 inches",
     "screen_resolution": "1920x1080",
     "cpu": "Intel Celeron",
@@ -294,7 +212,7 @@
     "rating": 4.5,
     "reviews": [],
     "price": "$519.00",
-    "card_image": "./laptops/NBKACN215541__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKACN215541__1.jpg?h=2826910760",
     "images": [
       "./laptops/NBKACN215541__2.jpg",
       "./laptops/NBKACN215541__3.jpg"
@@ -303,7 +221,7 @@
   },
   {
     "brand": "Asus",
-    "model": "Zenbook UM425QA-KI165X",
+    "model": "UM425QA-KI165X",
     "screen_size": "14 inches",
     "screen_resolution": "1920x1080",
     "cpu": "AMD Ryzen 7",
@@ -362,7 +280,7 @@
     "rating": 4,
     "reviews": [],
     "price": "$1,494.00",
-    "card_image": "./laptops/NBKHNB450906__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKASU425165R__1.jpg?h=480766425",
     "images": [
       "./laptops/NBKHNB450906__2.jpg",
       "./laptops/NBKHNB450906__3.jpg",
@@ -374,7 +292,7 @@
   },
   {
     "brand": "Lenovo",
-    "model": "ThinkPad T14s G2",
+    "model": "TP T14s G2",
     "screen_size": "14 inches",
     "screen_resolution": "1920x1080",
     "cpu": "Intel Core i5",
@@ -432,8 +350,8 @@
        ],
     "rating": 4.5,
     "reviews": [],
-    "price": "$1,606.87.00",
-    "card_image": "./laptops/NBKLEN86072__1.jpg",
+    "price": "$1,606.87",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKLEN86072__1.jpg?h=263283493",
     "images": [
       "./laptops/NBKLEN86072__2.jpg",
       "./laptops/NBKLEN86072__3.jpg",
@@ -443,7 +361,7 @@
   },
   {
     "brand": "MSI",
-    "model": "Modern 15 B7M-058NZ",
+    "model": "B7M-058NZ",
     "screen_size": "15.6 inches",
     "screen_resolution": "1920x1080",
     "cpu": "AMD Ryzen 7",
@@ -502,7 +420,7 @@
     "rating": 4.5,
     "reviews": [],
     "price": "$1,099.00",
-    "card_image": "./laptops/NBKMSI5701703__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKMSI5701703__1.jpg?h=2380993210",
     "images": [
       "./laptops/NBKMSI5701703__2.jpg",
       "./laptops/NBKMSI5701703__3.jpg",
@@ -571,7 +489,7 @@
     "rating": 4,
     "reviews": [],
     "price": "$1,472.00",
-    "card_image": "./laptops/NBKDEL342002__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKDEL0114__1.jpg?h=2050857476",
     "images": [
       "./laptops/NBKDEL342002__2.jpg",
       "./laptops/NBKDEL342002__3.jpg",
@@ -582,7 +500,7 @@
   },
   {
     "brand": "MSI",
-    "model": "Modern 14 C7M-053NZ",
+    "model": "C7M-053NZ",
     "screen_size": "14 inches",
     "screen_resolution": "1920x1080",
     "cpu": "AMD Ryzen 5",
@@ -641,7 +559,7 @@
     "rating": 4.5,
     "reviews": [],
     "price": "$899.00",
-    "card_image": "./laptops/NBKMSI5701698__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKMSI5701698__1.jpg?h=2188762993",
     "images": [
       "./laptops/NBKMSI5701698__2.jpg",
       "./laptops/NBKMSI5701698__3.jpg",
@@ -652,7 +570,7 @@
   },
   {
     "brand": "HP",
-    "model": "ProBook 455 G9",
+    "model": "ProBook 455",
     "screen_size": "15.6 inches",
     "screen_resolution": "1920x1080",
     "cpu": "AMD Ryzen 5",
@@ -711,7 +629,7 @@
     "rating": 4.8,
     "reviews": [],
     "price": "$1,380.00",
-    "card_image": "./laptops/NBKHNB455938B__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKHNB455938__1.jpg?h=2432200183",
     "images": [
       "./laptops/NBKHNB455938B__2.jpg",
       "./laptops/NBKHNB455938B__3.jpg",
@@ -721,78 +639,8 @@
     "tags": ["business"]
   },
   {
-    "brand": "Dell",
-    "model": "Latitude 3420",
-    "screen_size": "14 inches",
-    "screen_resolution": "1920x1080",
-    "cpu": "Intel Core i5",
-    "ram": "8GB",
-    "storage": "256GB",
-    "gpu_model": "NVIDIA MX450",
-    "operating_system": "Windows 11 Pro",
-    "specs_performance": [
-      {
-        "processor": "N/A",
-        "graphics": "N/A",  
-        "chipset": "N/A",
-        "memory": "N/A",
-        "memory_slots": "N/A",
-        "storage": "N/A",
-        "storage_support": "N/A",
-        "card_reader": "N/A",
-        "optical": "N/A",
-        "audio": "N/A",
-        "speaker": "N/A",
-        "camera": "N/A",
-        "microphone": "N/A",
-        "battery": "N/A",
-        "power_supply": "N/A"
-      }
-    ],
-    "specs_design": [
-      {
-        "display": "N/A",
-        "touchscreen": "N/A",
-        "keyboard": "N/A",
-        "case_color": "N/A",
-        "surface_treatment": "N/A",
-        "case_material": "N/A",
-        "dimensions": "N/A",
-        "weight": "N/A"
-      }
-    ],
-    "specs_software": [
-      {
-        "operating_system": "N/A",
-        "bundled_software": "N/A"
-      }
-    ],
-    "specs_connectivity": [
-      {
-        "ethernet": "N/A",
-        "WLAN": "N/A",
-        "ports": "N/A",
-        "security_chip": "N/A",
-        "fingerprint_reader": "N/A",
-        "physical_locks": "N/A",
-        "other_security": "N/A"
-      }
-        ],
-    "rating": 4.5,
-    "reviews": [],
-    "price": "$1,263.85",
-    "card_image": "./laptops/NBKDEL342001__1.jpg",
-    "images": [
-      "./laptops/NBKDEL342001__2.jpg",
-      "./laptops/NBKDEL342001__3.jpg",
-      "./laptops/NBKDEL342001__4.jpg",
-      "./laptops/NBKDEL342001__5.jpg"
-    ],
-    "tags": ["business"]
-  },
-  {
     "brand": "HP",
-    "model": "EliteBook 650 G10",
+    "model": "EB 650 G10",
     "screen_size": "15.6 inches",
     "screen_resolution": "1920x1080",
     "cpu": "Intel Core i7",
@@ -851,7 +699,7 @@
     "rating": 4,
     "reviews": [],
     "price": "$2,156.25",
-    "card_image": "./laptops/NBKHNB650108__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKHNB650108__1.jpg?h=1636067043",
     "images": [
       "./laptops/NBKHNB650108__2.jpg",
       "./laptops/NBKHNB650108__3.jpg",
@@ -922,7 +770,7 @@
     "rating": 4.5,
     "reviews": [],
     "price": "$1,035.00",
-    "card_image": "./laptops/NBKHNB732040B__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKHNB732040__1.jpg?h=3905814501",
     "images": [
       "./laptops/NBKHNB732040B__2.jpg",
       "./laptops/NBKHNB732040B__3.jpg",
@@ -992,7 +840,7 @@
     "rating": 4.5,
     "reviews": [],
     "price": "$2,334.99",
-    "card_image": "./laptops/NBKAPP215125611__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKAPP215125613__1.jpg?h=436574564",
     "images": [
       "./laptops/NBKAPP215125611__2.jpg",
       "./laptops/NBKAPP215125611__5.jpg",
@@ -1062,7 +910,7 @@
     "rating": 4.5,
     "reviews": [],
     "price": "$1,968.80",
-    "card_image": "./laptops/NBKLEN82019BS__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKLEN82019B__1.jpg?h=483581916",
     "images": [
       "./laptops/NBKLEN82019BS__2.jpg",
       "./laptops/NBKLEN82019BS__3.jpg"
@@ -1130,7 +978,7 @@
     "rating": 4.8,
     "reviews": [],
     "price": "$1,695.00",
-    "card_image": "./laptops/NBKAPP213125611_1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKAPP213225611__1.jpg?h=3725276401",
     "images": [
       "./laptops/NBKAPP213125611__2.jpg",
       "./laptops/NBKAPP213125611__4.jpg",
@@ -1142,7 +990,7 @@
   },
   {
     "brand": "MSI",
-    "model": "GF63 Thin 12VE-044NZ",
+    "model": "12VE-044NZ",
     "screen_size": "15.6 inches",
     "screen_resolution": "1920x1080",
     "cpu": "Intel Core i7",
@@ -1201,7 +1049,7 @@
     "rating": 4.7,
     "reviews": [],
     "price": "$1,799.00",
-    "card_image": "./laptops/NBKMSI631250__2.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKMSI631250__2.jpg?h=2106820302",
     "images": [
       "./laptops/NBKMSI631250__4.jpg",
       "./laptops/NBKMSI631250__5.jpg",
@@ -1212,7 +1060,7 @@
   },
   {
     "brand": "HP",
-    "model": "15s-fq2733tu",
+    "model": "FQ2733TU",
     "screen_size": "15.6 inches",
     "screen_resolution": "1920x1080",
     "cpu": "Intel Core i5",
@@ -1271,7 +1119,7 @@
     "rating": 4.57,
     "reviews": [],
     "price": "$1,046.50",
-    "card_image": "./laptops/NBKHNB152733__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKHNB152733__1.jpg?h=4291741840",
     "images": [
       "./laptops/NBKHNB152733__2.jpg",
       "./laptops/NBKHNB152733__3.jpg",
@@ -1283,7 +1131,7 @@
   },
   {
     "brand": "MSI",
-    "model": "GF63 Thin 12UDX-828NZ",
+    "model": "12UDX-828NZ",
     "screen_size": "15.6 inches",
     "screen_resolution": "1920x1080",
     "cpu": "Intel Core i5",
@@ -1342,7 +1190,7 @@
     "rating": 4.5,
     "reviews": [],
     "price": "$1,399.00",
-    "card_image": "./laptops/NBKMSI6311230__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKMSI6311230__1.jpg?h=3073665835",
     "images": [
       "./laptops/NBKMSI6311230__3.jpg",
       "./laptops/NBKMSI6311230__4.jpg",
@@ -1412,7 +1260,7 @@
     "rating": 4.8,
     "reviews": [ ],
     "price": "$1,449.00",
-    "card_image": "./laptops/NBKLEN88642__1.jpg",
+    "card_image": "https://www.pbtech.co.nz/imgprod/N/B/NBKLEN88642__1.jpg?h=3922234548",
     "images": [
       "./laptops/NBKLEN88642__2.jpg",
       "./laptops/NBKLEN88642__3.jpg",
