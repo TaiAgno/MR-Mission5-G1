@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const performanceSchema = new mongoose.Schema({
   processor: { type: String },
@@ -15,7 +15,7 @@ const performanceSchema = new mongoose.Schema({
   camera: { type: String },
   microphone: { type: String },
   battery: { type: String },
-  power_supply: { type: String }
+  power_supply: { type: String },
 });
 
 const designSchema = new mongoose.Schema({
@@ -26,12 +26,12 @@ const designSchema = new mongoose.Schema({
   surface_treatment: { type: String },
   case_material: { type: String },
   dimensions: { type: String },
-  weight: { type: String }
+  weight: { type: String },
 });
 
 const softwareSchema = new mongoose.Schema({
   operating_system: { type: String },
-  bundled_software: { type: String }
+  bundled_software: { type: String },
 });
 
 const connectivitySchema = new mongoose.Schema({
@@ -41,13 +41,13 @@ const connectivitySchema = new mongoose.Schema({
   security_chip: { type: String },
   fingerprint_reader: { type: String },
   physical_locks: { type: String },
-  other_security: { type: String }
+  other_security: { type: String },
 });
 
 const reviewSchema = new mongoose.Schema({
   user: { type: String },
   comment: { type: String },
-  rating: { type: Number }
+  rating: { type: Number },
 });
 
 const laptopSchema = new mongoose.Schema({
@@ -72,6 +72,6 @@ const laptopSchema = new mongoose.Schema({
   specs_connectivity: { type: [connectivitySchema] },
 });
 
-const Laptop = mongoose.model('Laptop', laptopSchema);
+const Laptop = mongoose.model("Laptop", laptopSchema);
 
 module.exports = Laptop;

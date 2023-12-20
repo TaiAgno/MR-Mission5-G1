@@ -1,24 +1,21 @@
 .horizontal-banner {
   border-radius: 10px;
-opacity: var(--Quantity, 1);
-background: lightgray 0.118px -300px / 100% 501.724% no-repeat;
-    width: 1106px;
-height: 178px;
-flex-shrink: 0;
-  }
-
-  @media screen and (max-width: 1250px) {
-    .horizontal-banner {
-      width: 700px;
-    height: 150px;
-    }
-  }
-
-  @media screen and (max-width: 800px) {
-.horizontal-banner {
-  width: 360px;
-    height: 100px;
-    background-position: 80% 55%;
-
+  opacity: var(--Quantity, 1);
+  background: lightgray 0.118px -300px / 100% 501.724% no-repeat;
+  width: 1106px;
+  height: 178px;
+  flex-shrink: 0;
 }
-  }
+@media screen and (max-width: 1250px) {
+  .horizontal-banner {
+      width: 700px;
+      height: 150px;
+ }
+}
+@media screen and (max-width: 800px) {
+  .horizontal-banner {
+      width: 360px;
+      height: 100px;
+      background-position: 80% 55%;
+ }
+}
