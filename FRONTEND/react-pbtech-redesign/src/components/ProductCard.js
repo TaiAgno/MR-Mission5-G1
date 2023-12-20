@@ -80,23 +80,7 @@ function ProductCard({
               <p className="mobile-card-property">Storage:</p>
               <p className="mobile-card-value">{specs.storage}</p>
             </div>
-            <div
-              className="arrow-flex-end"
-              onClick={(e) => {
-                e.stopPropagation();
-                setIsOpen(!isOpen);
-              }}
-            >
-              <span
-                className="arrow-align-right"
-                style={{
-                  fontSize: "16px",
-                  color: isOpen ? "black" : "initial",
-                }}
-              >
-                {isOpen ? String.fromCharCode(8743) : String.fromCharCode(8744)}
-              </span>
-            </div>
+
           </div>
         )}
         <div style={{ flexGrow: 1 }}></div>
@@ -147,9 +131,9 @@ function ProductCard({
               setIsOpen(!isOpen);
             }}
           >
-            <span style={{ fontSize: isOpen ? "20px" : "16px" }}>
+            <span style={{ fontSize: isOpen ? "20px" : "16px", cursor: "pointer" }}>
               {" "}
-              {isOpen ? String.fromCharCode(60) : String.fromCharCode(8744)}
+              {isOpen ? String.fromCharCode(94) : String.fromCharCode(8744)}
             </span>
           </div>
         </div>

@@ -154,6 +154,7 @@
       align-items: center;
       position: absolute;
       margin-top: 65px;
+      z-index: 9999;
  }
   .responsive-product-footer {
       width: 176px;
@@ -162,19 +163,23 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+      position: relative;
       background-color: #0B5077;
       color:#FFF;
       font-size: 13px;
       font-weight: 500;
- }
+      z-index: 9998;
+    }
   .responsive-product-footer.open .mobile-dropdown-card {
       display: block;
- }
+    }
+  .responsive-product-footer.open {
+      margin-top: 120px;
+    }
   .mobile-dropdown-card {
       width: 168px;
       background-color: #f9f9f9;
       border-radius: 10px;
-     ;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
       color: black;
@@ -182,15 +187,13 @@
       font-size: 14px;
       padding-left: 10px;
       display: block;
+      position: absolute;
+      top: 0;
  }
   .arrow-align-right {
       text-align: right ;
       margin-right: 15px;
       margin-bottom: 5px;
- }
-  .arrow-flex-end {
-      display: flex;
-      justify-content: flex-end;
  }
   .mobile-card-property {
       font-weight: 700;
