@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "../../App.css";
 import "./Home.css";
 import { Button } from "../../components/Button";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import VBanner from "../../components/VBanner";
 import HBanner from "../../components/HBanner";
 import iphoneImage from "../../media/iphone.jpg";
@@ -11,7 +13,9 @@ import ProductCard from "../components/../ProductCard";
 import Promo1 from "../../media/promo1.png";
 import Promo2 from "../../media/promo2.png";
 import Promo3 from "../../media/promo3.png";
-import PromoM from "../../media/promo-mobile.jpg";
+import PromoM1 from "../../media/promo-mobile.jpg";
+import PromoM2 from "../../media/promo-mobile2.jpg";
+import PromoM3 from "../../media/promo-mobile3.jpg";
 
 function Home({ setCartCount }) {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -67,26 +71,39 @@ function Home({ setCartCount }) {
           </div>
           <div className="right-column">
             <div className="promotions">
-              <div style={{ width: "100%" }}>
                 <h2 className="promotions-title">Latest Promotions</h2>
                 <hr className="section-hline" />
-              </div>
-              <div className="promo-cards">
-                <PromoCard image={windowWidth > 1000 ? Promo1 : PromoM} />
-                {windowWidth > 1000 && <PromoCard image={Promo2} />}
-                {windowWidth > 1000 && <PromoCard image={Promo3} />}
-              </div>
+                <div className="promo-cards">
+                  {windowWidth > 1000 ? (
+                    <>
+                      <PromoCard image={Promo1} />
+                      <PromoCard image={Promo2} />
+                      <PromoCard image={Promo3} />
+                    </>
+                  ) : (
+                    <Carousel showStatus={false} showArrows={false} autoPlay interval={4000} infiniteLoop>
+                      <div>
+                        <PromoCard image={PromoM1} />
+                      </div>
+                      <div>
+                        <PromoCard image={PromoM2} />
+                      </div>
+                      <div>
+                        <PromoCard image={PromoM3} />
+                      </div>
+                    </Carousel>
+                  )}
+                </div>
               <div className="home-button-container">
-                <Button className="btn btn-blue btn-medium hide">
+                <Button className="btn btn-blue btn-medium">
                   <span className="button-text">See all Promotions</span>
                 </Button>
               </div>
             </div>
             <div className="products">
-              <div style={{ width: "100%" }}>
                 <h2 className="products-title">Popular Products</h2>
                 <hr className="section-hline" />
-              </div>
+
               <div className="product-cards">
                 <div className="product-cards">
                   {products.slice(0, 4).map((product) => (
@@ -102,7 +119,7 @@ function Home({ setCartCount }) {
                 </div>
               </div>
               <div className="home-button-container">
-                <Button className="btn btn-blue btn-medium hide">
+                <Button className="btn btn-blue btn-medium">
                   <span className="button-text">See all Popular Products</span>
                 </Button>
               </div>
