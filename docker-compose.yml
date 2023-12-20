@@ -13,7 +13,7 @@ services:
       context: ./DATABASE
     depends_on:
       - mongo
-    command: ["./wait-for-it.sh", "mongo:27017", "--", "node", "index.js"]
+    command: ["sh", "-c", "until nc -z mongo 27017; do sleep 1; done; node index.js"]
   server:
     build:
       context: ./BACKEND
@@ -24,8 +24,8 @@ services:
     depends_on:
       - dbseed
     volumes:
-      - ./BACKEND:/app
-      - /app/node_modules
+      - ./BACKEND:/usr/src/app
+      - /usr/src/app/node_modules
     restart: on-failure
   frontend:
     build:
