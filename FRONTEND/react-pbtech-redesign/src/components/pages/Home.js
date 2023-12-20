@@ -81,7 +81,7 @@ function Home({ setCartCount }) {
                       <PromoCard image={Promo3} />
                     </>
                   ) : (
-                    <Carousel showStatus={false} showArrows={false} autoPlay interval={4000} infiniteLoop>
+                    <Carousel showThumbs={false} showStatus={false} showArrows={false} autoPlay interval={4000} infiniteLoop>
                       <div>
                         <PromoCard image={PromoM1} />
                       </div>
@@ -117,6 +117,14 @@ function Home({ setCartCount }) {
                     />
                   ))}
                 </div>
+                <ProductCard
+                      setCartCount={setCartCount}
+                      brand="blabla"
+                      model="blabla"
+                      card_image="blabla"
+                      specs="blabla"
+                      price="blabla"
+                    />
               </div>
               <div className="home-button-container">
                 <Button className="btn btn-blue btn-medium">

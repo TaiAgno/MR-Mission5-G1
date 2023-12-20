@@ -154,7 +154,6 @@
       align-items: center;
       position: absolute;
       margin-top: 65px;
-      z-index: 9999;
  }
   .responsive-product-footer {
       width: 176px;
@@ -172,9 +171,10 @@
     }
   .responsive-product-footer.open .mobile-dropdown-card {
       display: block;
+      z-index: 9999;
     }
   .responsive-product-footer.open {
-      margin-top: 120px;
+      margin-top: 110px;
     }
   .mobile-dropdown-card {
       width: 168px;
