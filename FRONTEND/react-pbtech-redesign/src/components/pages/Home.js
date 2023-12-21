@@ -117,7 +117,14 @@ function Home({ setCartCount }) {
                     />
                   ))}                     
                 </div>
-        
+                <ProductCard
+                      setCartCount={setCartCount}
+                      brand="blabla"
+                      model="blabla"
+                      card_image="blabla"
+                      specs="blabla"
+                      price="blabla"
+                    />
               </div>
               <div className="home-button-container">
                 <Button className="btn btn-blue btn-medium">
