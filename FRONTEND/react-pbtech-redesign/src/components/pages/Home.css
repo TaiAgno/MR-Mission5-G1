@@ -199,7 +199,10 @@
 
   @media screen and (max-width: 1000px) {
     .carousel-root {
-      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
       max-width: 1124px;
       max-height: 240px;
       margin: auto;
@@ -208,29 +211,35 @@
     .carousel .carousel-slider {
       display: flex;
       justify-content: center;
+      align-items: center;
+      width: 100%;
     }
+
+    .slider-wrapper.axis-horizontal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
     .carousel .carousel-slider img {
       max-height: 240px;
     }
 
     .carousel .control-dots {
       position: absolute;
-      bottom: -50px;
+      bottom: -20px;
       width: 100%;
       margin: 0 auto;
       text-align: center;
     }
 
     .carousel .control-dots .dot {
-      background: #D9D9D9;
+      background: gray !important;
     }
 
+    .carousel .control-dots .dot.selected,
     .carousel .control-dots .dot:hover {
-      background: #515151;
-    }
-    
-    .carousel .control-dots .dot.selected {
-      background: #515151;
+      background: black !important;
     }
   }
 
