@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MR-Mission5-G1/static/css/main.2c51cd7d.css",
+    "main.css": "/MR-Mission5-G1/static/css/main.a2a20eff.css",
     "main.js": "/MR-Mission5-G1/static/js/main.9318d7b9.js",
     "static/media/iphone.jpg": "/MR-Mission5-G1/static/media/iphone.5b3844dbb2f7e8b9d8ca.jpg",
     "static/media/promo-mobile3.png": "/MR-Mission5-G1/static/media/promo-mobile3.11e78edc2e1a349458ce.png",
@@ -26,11 +26,11 @@
     "static/media/space-grotesk-vietnamese-400-normal.woff2": "/MR-Mission5-G1/static/media/space-grotesk-vietnamese-400-normal.4741b38fb53bf09be42b.woff2",
     "static/media/nzflag.svg": "/MR-Mission5-G1/static/media/nzflag.1f28e2f4f886a0d95282c6edd63cedcb.svg",
     "index.html": "/MR-Mission5-G1/index.html",
-    "main.2c51cd7d.css.map": "/MR-Mission5-G1/static/css/main.2c51cd7d.css.map",
+    "main.a2a20eff.css.map": "/MR-Mission5-G1/static/css/main.a2a20eff.css.map",
     "main.9318d7b9.js.map": "/MR-Mission5-G1/static/js/main.9318d7b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c51cd7d.css",
+    "static/css/main.a2a20eff.css",
     "static/js/main.9318d7b9.js"
   ]
 }
