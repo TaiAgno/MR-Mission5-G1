@@ -14,8 +14,8 @@ import Promo1 from "../../media/promo1.png";
 import Promo2 from "../../media/promo2.png";
 import Promo3 from "../../media/promo3.png";
 import PromoM1 from "../../media/promo-mobile.jpg";
-import PromoM2 from "../../media/promo-mobile2.jpg";
-import PromoM3 from "../../media/promo-mobile3.jpg";
+import PromoM2 from "../../media/promo-mobile2.png";
+import PromoM3 from "../../media/promo-mobile3.png";
 
 function Home({ setCartCount }) {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -115,8 +115,9 @@ function Home({ setCartCount }) {
                       specs={product}
                       price={product.price}
                     />
-                  ))}
+                  ))}                     
                 </div>
+        
               </div>
               <div className="home-button-container">
                 <Button className="btn btn-blue btn-medium">
