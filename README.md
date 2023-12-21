@@ -19,7 +19,7 @@ Phase 2: Containerise the application and establish connections to the backend a
 
 SELF-DISCLAIMER
 
-A mammoth operation, ongoing with lots of coffee and determination.
+A mammoth effort with very a rewarding outcome. Mission accomplished with lots of coffee and determination.
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ A mammoth operation, ongoing with lots of coffee and determination.
 
 ### Errors
 
-* There are a few layout functionalities which are being reviewed, and will be so up until submission.
+* Containers wise fully functional. A few not well-behaved layout items, but nothing major.
 
 ## Review
 
