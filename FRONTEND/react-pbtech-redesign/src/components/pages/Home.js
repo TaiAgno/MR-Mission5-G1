@@ -10,6 +10,7 @@ import iphoneImage from "../../media/iphone.jpg";
 import heroImage from "../../media/homepage-hero.jpg";
 import PromoCard from "../../components/PromoCard";
 import ProductCard from "../components/../ProductCard";
+import laptopImage from '../../media/NBKLEN150353__1.jpg'
 import Promo1 from "../../media/promo1.png";
 import Promo2 from "../../media/promo2.png";
 import Promo3 from "../../media/promo3.png";
@@ -106,17 +107,41 @@ function Home({ setCartCount }) {
 
               <div className="product-cards">
                 <div className="product-cards">
-                  {products.slice(0, 4).map((product) => (
+
+                
                     <ProductCard
                       setCartCount={setCartCount}
-                      brand={product.brand}
-                      model={product.model}
-                      card_image={product.card_image}
-                      specs={product}
-                      price={product.price}
+                      brand="Lenovo" 
+                      model="V15 G3" 
+                      image={laptopImage}
+                      specs={{screenSize: '15.6"', processor: "Intel Core i7", ram: "16GB DDR4", storage: "512GB SSD"}} 
+                      price="NZD$999"
                     />
-                  ))}
-                </div>
+                    <ProductCard
+                      setCartCount={setCartCount}
+                      brand="Lenovo" 
+                      model="V15 G3" 
+                      image={laptopImage}
+                      specs={{screenSize: '15.6"', processor: "Intel Core i7", ram: "16GB DDR4", storage: "512GB SSD"}} 
+                      price="NZD$999"
+                    />
+                    <ProductCard
+                      setCartCount={setCartCount}
+                      brand="Lenovo" 
+                      model="V15 G3" 
+                      image={laptopImage}
+                      specs={{screenSize: '15.6"', processor: "Intel Core i7", ram: "16GB DDR4", storage: "512GB SSD"}} 
+                      price="NZD$999"
+                    />
+                    <ProductCard
+                      setCartCount={setCartCount}
+                      brand="Lenovo" 
+                      model="V15 G3" 
+                      image={laptopImage}
+                      specs={{screenSize: '15.6"', processor: "Intel Core i7", ram: "16GB DDR4", storage: "512GB SSD"}} 
+                      price="NZD$999"
+                    />     
+                    </div>                                   
               </div>
               <div className="home-button-container">
                 <Button className="btn btn-blue btn-medium">

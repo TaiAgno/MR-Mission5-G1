@@ -3,6 +3,7 @@ import { Button } from "./Button";
 import "./ProductCard.css";
 import DropdownCard from "./DropdownCard";
 import buttonTick from "../media/button-white-tick.png";
+import laptopImage from '../media/NBKLEN150353__1.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
@@ -36,7 +37,7 @@ function ProductCard({
         <h2 className="product-title">
           {brand} {model}
         </h2>
-        <img src={card_image} alt={model} className="product-image" />
+        <img src={laptopImage} alt={model} className="product-image" />
         <span className="hide-specs">
           <div className="product-specs">
             <p className="spec-property">Screen size:</p>
@@ -70,18 +71,17 @@ function ProductCard({
         )}
         {isOpen && (
           <div className="mobile-dropdown-card">
-            <div>
-              <p className="mobile-card-property">Screen size:</p>
-              <p className="mobile-card-value">{specs.screen_size}</p>
-              <p className="mobile-card-property">Processor:</p>
-              <p className="mobile-card-value">{specs.cpu}</p>
-              <p className="mobile-card-property">RAM:</p>
-              <p className="mobile-card-value">{specs.ram}</p>
-              <p className="mobile-card-property">Storage:</p>
-              <p className="mobile-card-value">{specs.storage}</p>
-            </div>
-
-          </div>
+          <DropdownCard 
+            specs={{
+              screenType: 'LED',
+              screenRes: '1920x1080',
+              gpuModel: 'Nvidia GTX 1660',
+              os: 'Windows 10',
+              wifi: '802.11ac',
+              bluetooth: '5.0'
+            }}
+          />
+        </div>
         )}
         <div style={{ flexGrow: 1 }}></div>
         <div className="product-footer">
